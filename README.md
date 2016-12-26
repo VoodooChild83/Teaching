@@ -25,3 +25,7 @@ In this module the student can explore the different properties of OLS with fini
 ### Effects of colinear/correlated regressors on inference testing
 
 Since it is very unlikely that random variables would achieve "perfect" collinearity outside of an introduced collinearity by the econometrician, the exercise focuses on exploring how varying degrees of correlation between regressors affects inference testing. The t-test statistic and F-test statistic are studied under these conditions tho elucidate their behavior. 
+
+## Microeconomic Theory for the Models and Methods of Quantitative Economics master's program (UAB and Paris Sorbonne)
+
+The solution to the social planner's problem of a CD utlity function using the Jupyter Notebook with the Python kernel. 
