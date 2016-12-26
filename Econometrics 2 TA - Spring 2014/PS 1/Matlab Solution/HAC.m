@@ -16,10 +16,6 @@ N=length(Y);
 %% Generate the estimated errors and SSR:
 
 ehat=e(param,Y,X);
-% ehat=Y-X*param;
-% SSR=ehat.*ehat;
-% 
-% B=diag(SSR);
 
 %% Ljung-Box Q Test for Autocorrelation of Error Terms
 
@@ -50,16 +46,9 @@ Omegahat=MC'*MC;
 
 if nargin>6 %&& norm(h)>0 %|| nargin<6 && norm(h)>0
     
-%     if nargin==4
-%        
-%        q=round(0.75*N^(1/3));
-%        
-%     end
     
      % The Newey-West correction for the autocorrelation can be obtained
-    % from the below:
-    
-%% Michael's Code for Newey West
+     % from the below:
 
     Zed = MC - repmat(mean(MC,1),N,1);
     
@@ -68,17 +57,7 @@ if nargin>6 %&& norm(h)>0 %|| nargin<6 && norm(h)>0
         ZZ=Zed(1+i:N,:);
         Omegahat=Omegahat+(1-i/(q+1))*((ZZ'*Zedlag)+(ZZ'*Zedlag)');
     end
-    
-%% My code
-    
-%     for j=1:q
-%         Gq=zeros(rows(Omegahat),cols(Omegahat));
-%         for k=j+1:N
-%             Gq=Gq+ehat(k)*ehat(k-j)*Z(k,:)'*Z(k-j,:);
-%         end
-%         Omegahat=Omegahat+(1-j/(q+1))*(Gq+Gq');
-%     end
-    
+        
 %% The HAC variance-covariance matrix:
     Avar=inv((X'*Z)/Omegahat*(Z'*X));   
     
