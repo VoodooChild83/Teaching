@@ -1,0 +1,18 @@
+Tolerance = 1.81899e-12
+
+Function evaluations: 868
+Evaluations of gradient: 84
+
+Model 1: 2-step GMM, using observations 1921-1941 (T = 21)
+e = Invest-bconst-bKLAG*KLAG-bP*P-bP_1*P_1
+HAC standard errors, bandwidth 2 (Bartlett kernel)
+
+             estimate    std. error     z      p-value 
+  -----------------------------------------------------
+  bconst     19.4346     5.24843       3.703   0.0002   ***
+  bKLAG      −0.152936   0.0245695    −6.225   4.83e-10 ***
+  bP          0.178232   0.144430      1.234   0.2172  
+  bP_1        0.586997   0.132415      4.433   9.29e-06 ***
+
+  GMM criterion: Q = 0.180679 (TQ = 3.79425)
+  J test: Chi-square(4) = 3.79425 [0.4346]

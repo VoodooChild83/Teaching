@@ -1,0 +1,20 @@
+Function evaluations: 1358
+Evaluations of gradient: 188
+
+Model 2: 2-step GMM, using observations 1921-1941 (T = 21)
+Dependent variable: I
+Instrumented: P 
+Instruments: const P_1 KLAG TIME X_1 WG G T 
+HAC standard errors, bandwidth 2 (Bartlett kernel)
+
+             coefficient   std. error      z       p-value 
+  ---------------------------------------------------------
+  const      25.5765       8.90068       2.874     0.0041   ***
+  KLAG       −0.181207     0.0411841    −4.400     1.08e-05 ***
+  P           0.0204868    0.218355      0.09382   0.9252  
+  P_1         0.729273     0.182965      3.986     6.72e-05 ***
+
+Mean dependent var   1.266667   S.D. dependent var   3.551948
+
+  GMM criterion: Q = 0.138547 (TQ = 2.90949)
+  J test: Chi-square(4) = 2.90949 [0.5731]
