@@ -8,7 +8,7 @@ The master's course completes the econometrics sequence, focusing on: the theory
 
 ### Problem Set 1
 
-The PDF solution and the matlab codes associated with the problem set are included, with generalized routines for calculating the HAC corrected variances (implementation of Newey-West). Includes some Monte-Carlo exercises to study the behaviour of various estimators from finite to "infinte" sample sizes.
+The PDF solution and the matlab codes associated with the problem set are included, with generalized routines for calculating the HAC corrected variances (implementation of Newey-West). Includes an introduction to time-series analysis and the consequences of a misspecified model that violates weak exogeneity, as well as some Monte-Carlo exercises to study the behaviour of various estimators from finite to "infinte" sample sizes.
 
 ### Problem Set 2
 
@@ -24,8 +24,8 @@ In this module the student can explore the different properties of OLS with fini
 
 ### Effects of colinear/correlated regressors on inference testing
 
-Since it is very unlikely that random variables would achieve "perfect" collinearity outside of an introduced collinearity by the econometrician, the exercise focuses on exploring how varying degrees of correlation between regressors affects inference testing. The t-test statistic and F-test statistic are studied under these conditions tho elucidate their behavior. 
+Since it is very unlikely that random variables would achieve "perfect" collinearity outside of an introduced collinearity by the econometrician, the exercise focuses on exploring how varying degrees of correlation between regressors affects inference testing. The t-test statistic and F-test statistic are studied under these conditions to elucidate their behavior. 
 
 ## Microeconomic Theory for the Models and Methods of Quantitative Economics master's program (UAB and Paris Sorbonne)
 
-The solution to the social planner's problem of a CD utlity function using the Jupyter Notebook with the Python kernel. 
+A Jupyter Notebook describing the solution of a social planner's problem of a CD utlity function using SymPy.
