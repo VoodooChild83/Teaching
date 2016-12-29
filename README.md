@@ -16,7 +16,7 @@ Likewise, a PDF solutions is included expanding on the GMM estimation technique 
 
 ## GSE Tutoring - Econometrics
 
-In this file one can find Jupyter Notebooks impplemented with the Matlab Kernel containing practice programming exercises for those students to whom I have tutored in the Macroeconmic Policy and Financial Markets Program at the Barcelona Graduate School of Economics. 
+In this file one can find Jupyter Notebooks impplemented with the Matlab Kernel containing practice programming exercises for those students who I have tutored in the Macroeconmic Policy and Financial Markets Program at the Barcelona Graduate School of Economics. 
 
 ### Monte-Carlo Exercise of OLS properties
 
