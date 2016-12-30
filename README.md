@@ -18,11 +18,17 @@ Likewise, a PDF solutions is included expanding on the GMM estimation technique 
 
 In this file one can find Jupyter Notebooks implemented with the Matlab Kernel containing practice programming exercises for those students who I have tutored in the Macroeconmic Policy and Financial Markets Program at the Barcelona Graduate School of Economics. 
 
-### Monte-Carlo Exercise of OLS properties
+### Solutions to Part 2 of Econometrics Course
+
+This file contains Jupyter Notebooks implemented with the Matlab Kernel detainling the solutions to the second part of the economterics course in the MPFMP masters program. The .m file is also included for those without the Matlab kernel installed in their Jupyter environment.
+
+### Practice
+
+#### Monte-Carlo Exercise of OLS properties
 
 In this module the student can explore the different properties of OLS with finite and asymptotic sample sizes; and exploration of the role of omited variable bias and correlated regressors; and the problem of endogeneity of the regressor and the 2-Stage Least Squares solution to this problem. 
 
-### Effects of colinear/correlated regressors on inference testing
+#### Effects of colinear/correlated regressors on inference testing
 
 Since it is very unlikely that random variables would achieve "perfect" collinearity outside of an introduced collinearity by the econometrician, the exercise focuses on exploring how varying degrees of correlation between regressors affects inference testing. The t-test statistic and F-test statistic are studied under these conditions to elucidate their behavior. 
 
