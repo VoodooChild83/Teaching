@@ -18,7 +18,7 @@ Likewise, a PDF solutions is included expanding on the GMM estimation technique 
 
 In this file one can find Jupyter Notebooks implemented with the Matlab kernel containing practice programming exercises and homework solutions for those students who I have tutored in the Macroeconmic Policy and Financial Markets Program at the Barcelona Graduate School of Economics. 
 
-Thee following websites detail how get Matlab working in Jupyter Notebooks and in Python (if desired):
+The following websites detail how get Matlab working in Jupyter Notebooks and in Python (if desired) on OSX/Linux/UBUNTU:
 
 * [Guide to install the Matlab kernel](https://anneurai.net/2015/11/12/matlab-based-ipython-notebooks/)
 * [Guide to install Matlab magics for use in Jupyter Notebooks](https://arokem.github.io/python-matlab-bridge/)
