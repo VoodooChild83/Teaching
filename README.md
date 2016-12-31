@@ -16,11 +16,18 @@ Likewise, a PDF solutions is included expanding on the GMM estimation technique 
 
 ## GSE Tutoring - Econometrics
 
-In this file one can find Jupyter Notebooks implemented with the Matlab Kernel containing practice programming exercises for those students who I have tutored in the Macroeconmic Policy and Financial Markets Program at the Barcelona Graduate School of Economics. 
+In this file one can find Jupyter Notebooks implemented with the Matlab kernel containing practice programming exercises and homework solutions for those students who I have tutored in the Macroeconmic Policy and Financial Markets Program at the Barcelona Graduate School of Economics. 
 
-### Solutions to Part 2 of Econometrics Course
+Thee following websites detail how get Matlab working in Jupyter Notebooks and in Python (if desired):
 
-This file contains Jupyter Notebooks implemented with the Matlab Kernel detainling the solutions to the second part of the economterics course in the MPFMP masters program. The .m file is also included for those without the Matlab kernel installed in their Jupyter environment.
+* [Guide to install the Matlab kernel](https://anneurai.net/2015/11/12/matlab-based-ipython-notebooks/)
+* [Guide to install Matlab magics for use in Jupyter Notebooks](https://arokem.github.io/python-matlab-bridge/)
+* Additionally, you may need to create a [simlink/adjust your .bash_profile] (http://superuser.com/questions/381825/running-matlab-from-mac-osx-terminal) accordingly.
+* [Installing Matlab Engine API for Python](https://www.mathworks.com/help/matlab/matlab-engine-for-python.html)
+
+### Solutions to Part 2 of Econometrics Course in the Barcelona GSE's MPFMP Master's Program 
+
+This file contains Jupyter Notebooks detailing the solutions to programming homework assignmens. The .m files are also included for those without the Matlab kernel installed in their Jupyter environment.
 
 ### Practice
 
