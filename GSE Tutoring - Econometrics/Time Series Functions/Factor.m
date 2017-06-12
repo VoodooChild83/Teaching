@@ -1,4 +1,4 @@
-function [ f,Eigen ] = Factor( data, p )
+function [ f,Eigen ] = Factor( data, r )
 %% DOCSTRING
 %
 % The function generates the factor array based on the data provided
@@ -7,8 +7,8 @@ function [ f,Eigen ] = Factor( data, p )
 % data - a Tx(K+1) dataset (K+1 since the first column is assumed to be a
 % timestamp --> The first column must be either a timestamp or NaN)
 %
-% p - the number of lags to include in the model (optimal lags assumed to
-% already have been conducted outside of the function).
+% r - the number of factors to consider (extracted from an information
+% criterion or otherwise)
 %
 % OUTPUT:
 % f - Txf array of the panel of factors
