@@ -1,4 +1,4 @@
-// garch11 model, to illustrate using C++ for Octave bottlenecks
+// garch11 model, to illustrate using C++ for bottlenecks
 #include <oct.h>
 #include <octave/Cell.h>
 
