@@ -25,20 +25,6 @@ The following websites detail how get Matlab working in Jupyter Notebooks and in
 * Additionally, you may need to create a [simlink/adjust your .bash_profile] (http://superuser.com/questions/381825/running-matlab-from-mac-osx-terminal) accordingly.
 * [Installing Matlab Engine API for Python](https://www.mathworks.com/help/matlab/matlab-engine-for-python.html)
 
-### Solutions to Part 2 of Econometrics Course in the Barcelona GSE's MPFMP Master's Program 
-
-This file contains Jupyter Notebooks detailing the solutions to programming homework assignmens. The .m files are also included for those without the Matlab kernel installed in their Jupyter environment.
-
-### Practice
-
-#### Monte-Carlo Exercise of OLS properties
-
-In this module the student can explore the different properties of OLS with finite and asymptotic sample sizes; and exploration of the role of omited variable bias and correlated regressors; and the problem of endogeneity of the regressor and the 2-Stage Least Squares solution to this problem. 
-
-#### Effects of colinear/correlated regressors on inference testing
-
-Since it is very unlikely that random variables would achieve "perfect" collinearity outside of an introduced collinearity by the econometrician, the exercise focuses on exploring how varying degrees of correlation between regressors affects inference testing. The t-test statistic and F-test statistic are studied under these conditions to elucidate their behavior. 
-
 ## Microeconomic Theory for the Models and Methods of Quantitative Economics master's program (UAB and Paris Sorbonne)
 
 A Jupyter Notebook describing the solution of a social planner's problem of a CD utlity function using SymPy.
